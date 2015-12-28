@@ -14,7 +14,7 @@ namespace Snake
         {
 
             //отрисовка рамки
-            Border border = new Border(80, 25, '*');
+            Border border = new Border(120, 30, '*');
             //отрисовка змейки
             Point p1 = new Point(15, 10, '+');
             Snake snake = new Snake(p1, 5, Direction.RIGHT);
